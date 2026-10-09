@@ -1,0 +1,16 @@
+# Terraform
+**/.terraform/
+*.tfstate
+*.tfstate.*
+*.tfvars
+*.tfvars.json
+
+# Environment and credentials
+.env
+.env.*
+*.pem
+*.key
+
+# Go build artifacts
+*.exe
+coverage.out
