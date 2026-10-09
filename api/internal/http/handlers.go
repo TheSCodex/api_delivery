@@ -2,8 +2,8 @@ package http
 
 import (
 	"encoding/json"
-	"net/http"
 	"github.com/TheSCodex/sezzle-calculator/internal/calculator"
+	"net/http"
 )
 
 type CalculateRequest struct {
